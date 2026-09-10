@@ -1,17 +1,35 @@
-# JANUS
 
-**An Epistemically Governed, Mathematically Evolving Architecture**
+JANUS is an epistemically governed computational architecture for reasoning over evolving systems and controlling the transition from observation and inference to evidence-based action.
 
-A system that can see a changing world, form a picture of that world, and still refuse to act when the picture is not enough.
+JANUS operates on information about systems whose state may change over time. It provides a structured separation between observation, state estimation, inference, hypothesis, evidence, belief, authorization, and execution, so that computational conclusions can be evaluated according to their epistemic status before they acquire operational consequences.
 
-> Capability ≠ Authority ≠ Authorization ≠ Execution
+At its core, JANUS treats computation as a sequence of constrained epistemic and operational transitions:
 
-Most software that uses models treats intelligence as a path to action.
+Observation → State Representation → Inference → Hypothesis → Evidence → Belief → Authorization → Execution → Outcome → Evidence Update
 
-JANUS treats intelligence as a reason to hesitate.
+Each transition has a defined role and scope. No transition is assumed to imply another automatically.
 
-```
-Observation → Inference → Evidence → Governance → Action
+The architecture therefore distinguishes:
+
+Capability ≠ Authority ≠ Authorization ≠ Execution
+
+and maintains explicit separation between what a system observes, what it estimates, what it infers, what it hypothesizes, what the available evidence supports, and what it is authorized to do.
+
+JANUS combines mathematical modeling of evolving systems with epistemic evaluation and controlled execution. Its research program includes dynamic-system modeling, state and parameter estimation, uncertainty handling, hypothesis evaluation, evidence tracking, cognitive processing, governance, authorization, controlled execution, retrospective evaluation, and controlled adaptation.
+
+The architecture is designed so that operational authority is not derived merely from computational capability or predictive output. An internally generated conclusion can therefore remain a hypothesis, require additional evidence, be evaluated in simulation, or be denied authorization rather than automatically becoming an external action.
+
+JANUS is developed as an empirically testable architecture. Mathematical formulations, implementations, and behavioral claims are evaluated separately, with experimental results assigned explicit epistemic status according to their validation scope.
+
+Where a mechanism is supported by evidence, its status and conditions of validation are documented. Where evidence is incomplete, the mechanism remains a research hypothesis or open direction. Where an experimental claim fails its predefined criterion, it is retained as a falsified result rather than promoted into the architecture's established knowledge.
+
+The central research problem of JANUS can therefore be stated simply:
+
+> How can a computational system move from partial observations about an evolving world to justified action while preserving the distinction between what is observed, what is inferred, what is supported by evidence, and what is authorized?
+
+
+
+That is the core definition of JANUS.
 ```
 
 ---
